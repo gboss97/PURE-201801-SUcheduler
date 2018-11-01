@@ -2,12 +2,13 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { Button } from 'react-native';
 
+
 export default class App extends React.Component {
   onPressInitiate = () => {
     alert("Initiating..");
   };
   onPressPreviouslyInitiated = () => {
-    alert("Previously Initiating..");
+    alert("Previously Initiating....");
   };
 
   render() {
